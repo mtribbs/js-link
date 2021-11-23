@@ -10,3 +10,6 @@
 
 let firstName = "Therese";
 console.log(firstName);
+
+firstName = "Maria";
+console.log(firstName);
