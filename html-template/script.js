@@ -180,8 +180,23 @@
 // then - break it apart into smaller pieces/tasks
 
 // TASK: check if a person is old enough to take their driver's license
-// 1. a variable to store the person's age
-// 2. a value that we store in a variable that will represent the required age for taking a driver's license
-// 3. compare the person's age against the required age to see if it is a valid age for taking a driver's license
-// 4. make a decision based on the evaluation, true or false
+// step 1: a variable to store the person's age
+// step 2: a value that we store in a variable that will represent the required age for taking a driver's license
+// step 3: compare the person's age against the required age to see if it is a valid age for taking a driver's license
+// step 4: make a decision based on the evaluation, true or false
 
+// step 1
+const age = 16;
+
+// step 2
+// const requiredAge = 18; don't need this
+
+// step 3 (& 2)
+const isOfAge = age >= 18;
+
+//step 4
+if (isOfAge) {
+    console.log("YAY! You can take a driver's license!");
+} else {
+    console.log("Sorry, come back in a few years!");
+}
