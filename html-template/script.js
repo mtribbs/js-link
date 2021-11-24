@@ -81,16 +81,16 @@
 // const brothersAge = 2021 - 1989;
 // console.log(myAge, brothersAge);
 
-const now = 2021;
-const myAge = now - 1992;
-const brothersAge = now - 1989;
+// const now = 2021;
+// const myAge = now - 1992;
+// const brothersAge = now - 1989;
 //console.log(myAge, brothersAge);
 
 //console.log(myAge * 2, myAge / 10);
 
 // concantinate
-const firstName = "Therese";
-const lastName = "Ribbas";
+// const firstName = "Therese";
+// const lastName = "Ribbas";
 //console.log(firstName + lastName);
 //console.log(firstName + " " + lastName);
 
@@ -124,7 +124,7 @@ const lastName = "Ribbas";
 // console.log(brothersAge >= 18);
 //greater or equal
 
-const isFullAge = brothersAge >= 18;
+// const isFullAge = brothersAge >= 18;
 //this variable holds the boolean value
 // console.log(isFullAge);
 
@@ -153,24 +153,35 @@ const isFullAge = brothersAge >= 18;
 
 
 // STRINGS AND TEMPLATE LITERALS
-const job = "student";
-const birthYear = 1992;
-const year = 2021;
+// const job = "student";
+// const birthYear = 1992;
+// const year = 2021;
 
-const therese = 
-"I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!"
-console.log(therese);
+// const therese = 
+// "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!"
+// console.log(therese);
 
-const thereseNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(thereseNew);
+// const thereseNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(thereseNew);
 
-console.log("String with \n\
-multiple \n\
-lines");
+// console.log("String with \n\
+// multiple \n\
+// lines");
 
-console.log(`String with
-multiple
-lines`);
+// console.log(`String with
+// multiple
+// lines`);
 // the es6 way
 
+
+// TAKING DECISIONS - IF/ELSE
+
+// first - define problem/task
+// then - break it apart into smaller pieces/tasks
+
+// TASK: check if a person is old enough to take their driver's license
+// 1. a variable to store the person's age
+// 2. a value that we store in a variable that will represent the required age for taking a driver's license
+// 3. compare the person's age against the required age to see if it is a valid age for taking a driver's license
+// 4. make a decision based on the evaluation, true or false
 
