@@ -10,11 +10,11 @@
 35;
 //console.log(35);
 
-let firstName = "Therese";
-console.log(firstName);
+// let firstName = "Therese";
+// console.log(firstName);
 
-firstName = "Maria";
-console.log(firstName);
+// firstName = "Maria";
+// console.log(firstName);
 
 
 
@@ -22,45 +22,45 @@ console.log(firstName);
 
 //boolean - true/false
 
-let youWillLearnJs = true;
-console.log(youWillLearnJs);
+// let youWillLearnJs = true;
+// console.log(youWillLearnJs);
 
 // strings, numbers, boolean - most important!
 
 // typeof operator
 // shows what type a value holds, data type, - only to check
-console.log(typeof true);
-console.log(typeof youWillLearnJs);
-console.log(typeof 36);
-console.log(typeof "Therese");
+// console.log(typeof true);
+// console.log(typeof youWillLearnJs);
+// console.log(typeof 36);
+// console.log(typeof "Therese");
 
-youWillLearnJs = "YES";
-console.log(typeof youWillLearnJs);
+// youWillLearnJs = "YES";
+// console.log(typeof youWillLearnJs);
 
 // undefined 
-let day;
-console.log(day);
-console.log(typeof day);
+// let day;
+// console.log(day);
+// console.log(typeof day);
 
-day = "wednesday";
-console.log(typeof day);
+// day = "wednesday";
+// console.log(typeof day);
 
 
 
 // LET, CONST, VAR
 
 // let - used for variebles where the value can change in the future
-let age = 30;
-console.log(age);
+// let age = 30;
+// console.log(age);
 
-age = 31;
-console.log(age);
+// age = 31;
+// console.log(age);
 
 // empty variables - use let, cannot use const
 
 // const - used where the value cannot change, use as default!!
-const birthYear = 1985; 
-console.log(birthYear);
+// const birthYear = 1985; 
+// console.log(birthYear);
 
 // birthYear = 1990;
 // console.log(birthYear); - does not work, cannot change value of a value declared as const
@@ -69,3 +69,63 @@ console.log(birthYear);
 
 
 
+// BASIC OPERATORS
+
+// mathematic operators
+// plus, minus, division, multiply, equal
+
+
+// const myAge = 2021 - 1992;
+// console.log(myAge);
+
+// const brothersAge = 2021 - 1989;
+// console.log(myAge, brothersAge);
+
+const now = 2021;
+const myAge = now - 1992;
+const brothersAge = now - 1989;
+//console.log(myAge, brothersAge);
+
+//console.log(myAge * 2, myAge / 10);
+
+// concantinate
+const firstName = "Therese";
+const lastName = "Ribbas";
+//console.log(firstName + lastName);
+//console.log(firstName + " " + lastName);
+
+// assignment operator 
+// most straight forward is =
+
+let x = 10 + 5;
+// console.log(x);
+
+x += 10;
+// x = x + 10 reassigning x value so x = 25
+// console.log(x);
+
+x *= 4;
+// x (25) = x * 4 = 100
+// console.log(x);
+
+
+// plus operator increases the value by 1
+x++;
+// console.log(x);
+
+// minus operator decreases the value by 1
+x--;
+// console.log(x);
+
+
+// Comparison operators
+console.log(brothersAge > myAge);
+//greater than
+console.log(brothersAge >= 18);
+//greater or equal
+
+const isFullAge = brothersAge >= 18;
+//this variable holds the boolean value
+console.log(isFullAge);
+
+console.log(now - 1992 > now - 1989);
