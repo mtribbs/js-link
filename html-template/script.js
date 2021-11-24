@@ -13,3 +13,10 @@ console.log(firstName);
 
 firstName = "Maria";
 console.log(firstName);
+
+//DATA TYPES
+
+//boolean - true/false
+
+console.log(youWillLearnJs);
+let youWillLearnJs = true;
