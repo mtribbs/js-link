@@ -148,5 +148,29 @@ const isFullAge = brothersAge >= 18;
 
 // const averageAge = myAge + brothersAge / 2;
 // js will first calculate brothersage/2, then add myage, division has higher precedence
-const averageAge = (myAge + brothersAge) / 2;
-console.log(myAge, brothersAge, averageAge);
+// const averageAge = (myAge + brothersAge) / 2;
+// console.log(myAge, brothersAge, averageAge);
+
+
+// STRINGS AND TEMPLATE LITERALS
+const job = "student";
+const birthYear = 1992;
+const year = 2021;
+
+const therese = 
+"I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!"
+console.log(therese);
+
+const thereseNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(thereseNew);
+
+console.log("String with \n\
+multiple \n\
+lines");
+
+console.log(`String with
+multiple
+lines`);
+// the es6 way
+
+
