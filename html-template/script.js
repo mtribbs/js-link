@@ -97,35 +97,56 @@ const lastName = "Ribbas";
 // assignment operator 
 // most straight forward is =
 
-let x = 10 + 5;
+// let x = 10 + 5;
 // console.log(x);
 
-x += 10;
+// x += 10;
 // x = x + 10 reassigning x value so x = 25
 // console.log(x);
 
-x *= 4;
+// x *= 4;
 // x (25) = x * 4 = 100
 // console.log(x);
 
 
 // plus operator increases the value by 1
-x++;
+// x++;
 // console.log(x);
 
 // minus operator decreases the value by 1
-x--;
+// x--;
 // console.log(x);
 
 
 // Comparison operators
-console.log(brothersAge > myAge);
+// console.log(brothersAge > myAge);
 //greater than
-console.log(brothersAge >= 18);
+// console.log(brothersAge >= 18);
 //greater or equal
 
 const isFullAge = brothersAge >= 18;
 //this variable holds the boolean value
-console.log(isFullAge);
+// console.log(isFullAge);
 
-console.log(now - 1992 > now - 1989);
+// console.log(now - 1992 > now - 1989);
+
+
+// OPERATOR PRECEDENCE 
+
+// console.log (now - 1992 > now - 1989);
+// console.log(myAge);
+// console.log(brothersAge);
+
+// console.log(25 - 10 - 5);
+//left-to-right
+// let x, y;
+// x = y = 25 - 10 - 5;
+// console.log(x, y);
+//right to left
+//subtraction has higher precedence, goes left to right, assignment = has lower precedence and calculated right to left
+// sub is 10, 10 is y and y is x
+
+// const averageAge = myAge + brothersAge / 2;
+// js will first calculate brothersage/2, then add myage, division has higher precedence
+const averageAge = (myAge + brothersAge) / 2;
+console.log(myAge, brothersAge, averageAge);
