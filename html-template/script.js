@@ -44,3 +44,25 @@ console.log(typeof day);
 
 day = "wednesday";
 console.log(typeof day);
+
+
+// LET, CONST, VAR
+
+// let - used for variebles where the value can change in the future
+let age = 30;
+console.log(age);
+
+age = 31;
+console.log(age);
+
+// empty variables - use let, cannot use const
+
+// const - used where the value cannot change, use as default!!
+const birthYear = 1985; 
+console.log(birthYear);
+
+// birthYear = 1990;
+// console.log(birthYear); - does not work, cannot change value of a value declared as const
+
+// always use a keyword! 
+
