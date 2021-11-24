@@ -46,6 +46,7 @@ day = "wednesday";
 console.log(typeof day);
 
 
+
 // LET, CONST, VAR
 
 // let - used for variebles where the value can change in the future
@@ -65,4 +66,6 @@ console.log(birthYear);
 // console.log(birthYear); - does not work, cannot change value of a value declared as const
 
 // always use a keyword! 
+
+
 
