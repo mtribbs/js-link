@@ -186,7 +186,7 @@
 // step 4: make a decision based on the evaluation, true or false
 
 // step 1
-const age = 15;
+// const age = 15;
 
 // step 2
 // const requiredAge = 18; don't need this
@@ -214,9 +214,9 @@ const age = 15;
 
 // LOGICAL OPERATORS
 
-const hasDriversLicense = true;
+// const hasDriversLicense = true;
 
-const hasGoodVision = true;
+// const hasGoodVision = true;
 // A and B variables
 
 // console.log(hasDriversLicense && hasGoodVision);
@@ -230,7 +230,7 @@ const hasGoodVision = true;
 // console.log(!hasDriversLicense);
 // "!" = not operator
 
-const canDrive = hasDriversLicense && hasGoodVision;
+// const canDrive = hasDriversLicense && hasGoodVision;
 // combining them and store the result of the operation in a new variable
 //console.log(canDrive);
 
@@ -251,3 +251,73 @@ const canDrive = hasDriversLicense && hasGoodVision;
 //     console.log("Someone else should drive.");
 // }
 
+
+
+// SWITCH
+// alternative way of writing complicated if/else statements
+
+const day = "Saturday"
+
+switch (day) {
+    case "Monday":
+       console.log("Do laundry");
+       console.log("Do assignment");
+       break;
+    case "Tuesday":
+        console.log("Submit assignment");
+        break;
+    case "Wednesday":
+    case "Thursday":
+        console.log("Go to the gym");
+        break;
+    case "Friday":
+        console.log("Clean apartment");
+        break;
+    case "Saturday":
+    case "Sunday":
+        console.log("Enjoy the weekend!");
+        break;
+        default:
+            console.log("Not a valid day");
+}
+
+ //day === "Monday"
+ //need to end case with break, to tell JS to stop when a case is applied
+ // the case needs to be exactly the same as the value (strict comparison)
+
+// const monday = false
+// const tuesday = false
+// const wednesday = false
+// const thursday = false
+// const friday = false
+// const saturday = true
+// const sunday = false
+
+// if (monday) {
+//     console.log("Do laundry");
+// } else if (tuesday) {
+//     console.log("Submit assignment");
+// } else if (wednesday || thursday) {
+//     console.log("Go to the gym");
+// } else if (friday) {
+//     console.log("Clean apartment");
+// } else if (saturday || sunday) {
+//     console.log("Enjoy the weekend!");
+// } else {
+//     console.log("Not a valid day");
+// }
+
+
+if (day === "Monday") {
+    console.log("Do laundry");
+} else if (day === "Tuesday") {
+    console.log("Submit assignment");
+} else if (day === "Wednesday" || day === "Thursday") {
+    console.log("Go to the gym");
+} else if (day === "Friday") {
+    console.log("Clean apartment");
+} else if (day === "Saturday" || day === "Sunday") {
+    console.log("Enjoy the weekend!");
+} else {
+    console.log("Not a valid day");
+}
