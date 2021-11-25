@@ -186,17 +186,68 @@
 // step 4: make a decision based on the evaluation, true or false
 
 // step 1
-const age = 16;
+const age = 15;
 
 // step 2
 // const requiredAge = 18; don't need this
 
-// step 3 (& 2)
-const isOfAge = age >= 18;
+// step 3, simplifying stepp 2
+// const isOfAge = age >= 18;
 
 //step 4
-if (isOfAge) {
-    console.log("YAY! You can take a driver's license!");
-} else {
-    console.log("Sorry, come back in a few years!");
-}
+// if (isOfAge) {
+//     console.log("YAY! You can take a driver's license!");
+// } else {
+//     console.log("Sorry, come back in a few years!");
+// }
+
+//simplifying & adding 
+// if (age >= 18) {
+//     console.log("YAY! You can take a driver's license!");
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sorry, come back in ${yearsLeft} years.`);
+// }
+//variables/values inside the if/else{} are only accessible inside {}, not outside {}
+
+
+
+// LOGICAL OPERATORS
+
+const hasDriversLicense = true;
+
+const hasGoodVision = true;
+// A and B variables
+
+// console.log(hasDriversLicense && hasGoodVision);
+// && = and operator
+// both values need to be true for the operation to return true
+
+// console.log(hasDriversLicense || hasGoodVision);
+// || = or operator
+// only one needs to be true for the operation to return true
+
+// console.log(!hasDriversLicense);
+// "!" = not operator
+
+const canDrive = hasDriversLicense && hasGoodVision;
+// combining them and store the result of the operation in a new variable
+//console.log(canDrive);
+
+// if (hasGoodVision && hasDriversLicense) {
+//     console.log("You can drive!");
+// } else {
+//     console.log("Someone else should drive.");
+// }
+
+// const isTired = false;
+
+// console.log(hasDriversLicense || hasGoodVision || isTired);
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasGoodVision && hasDriversLicense && !isTired) {
+//     console.log("You can drive!");
+// } else {
+//     console.log("Someone else should drive.");
+// }
+
