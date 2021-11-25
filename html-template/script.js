@@ -256,35 +256,38 @@
 // SWITCH
 // alternative way of writing complicated if/else statements
 
-const day = "Saturday"
+// const day = "Saturday"
 
-switch (day) {
-    case "Monday":
-       console.log("Do laundry");
-       console.log("Do assignment");
-       break;
-    case "Tuesday":
-        console.log("Submit assignment");
-        break;
-    case "Wednesday":
-    case "Thursday":
-        console.log("Go to the gym");
-        break;
-    case "Friday":
-        console.log("Clean apartment");
-        break;
-    case "Saturday":
-    case "Sunday":
-        console.log("Enjoy the weekend!");
-        break;
-        default:
-            console.log("Not a valid day");
-}
+// switch (day) {
+//     case "Monday":
+//        console.log("Do laundry");
+//        console.log("Do assignment");
+//        break;
+//     case "Tuesday":
+//         console.log("Submit assignment");
+//         break;
+//     case "Wednesday":
+//     case "Thursday":
+//         console.log("Go to the gym");
+//         break;
+//     case "Friday":
+//         console.log("Clean apartment");
+//         break;
+//     case "Saturday":
+//     case "Sunday":
+//         console.log("Enjoy the weekend!");
+//         break;
+//         default:
+//             console.log("Not a valid day");
+// }
 
  //day === "Monday"
  //need to end case with break, to tell JS to stop when a case is applied
  // the case needs to be exactly the same as the value (strict comparison)
 
+
+
+// my solution
 // const monday = false
 // const tuesday = false
 // const wednesday = false
@@ -307,17 +310,41 @@ switch (day) {
 //     console.log("Not a valid day");
 // }
 
+// Correct solution
+// if (day === "Monday") {
+//     console.log("Do laundry");
+// } else if (day === "Tuesday") {
+//     console.log("Submit assignment");
+// } else if (day === "Wednesday" || day === "Thursday") {
+//     console.log("Go to the gym");
+// } else if (day === "Friday") {
+//     console.log("Clean apartment");
+// } else if (day === "Saturday" || day === "Sunday") {
+//     console.log("Enjoy the weekend!");
+// } else {
+//     console.log("Not a valid day");
+// }
 
-if (day === "Monday") {
-    console.log("Do laundry");
-} else if (day === "Tuesday") {
-    console.log("Submit assignment");
-} else if (day === "Wednesday" || day === "Thursday") {
-    console.log("Go to the gym");
-} else if (day === "Friday") {
-    console.log("Clean apartment");
-} else if (day === "Saturday" || day === "Sunday") {
-    console.log("Enjoy the weekend!");
-} else {
-    console.log("Not a valid day");
-}
+
+
+
+// CONDITIONAL OPERATOR: TERNARY
+
+const age = 25;
+
+age >= 18 ? console.log("I would like a beer") : console.log("I'll have water");
+
+// condition:
+// age >= 18 
+// if:
+// ? console.log("I would like a beer") 
+// else:
+// : console.log("I'll have water");
+
+// an expression that we can store in a variable
+//age <= 18 ? "beer" : "water";
+
+const drink = age >= 18 ? "beer" : "water";
+console.log(drink);
+
+console.log(`I would like to drink ${age >= 18 ? "beer" : "water"}`);
